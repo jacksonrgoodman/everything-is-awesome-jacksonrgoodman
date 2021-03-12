@@ -7,6 +7,7 @@ export const LegoDetail = (brick) => {
   }
   let block = `<section class="block-wrapper" style="background-color:#${brick.ColorHex}">
               <h3>Name: ${helperFunction(brick.LegoName)}</h3>
+              <p>${brick.LegoId}</p>
               <div class="block-years">Manufactured ${brick.YearFrom} - ${brick.YearTo}</div>
               <p>${brick.Notes}</p>
               </section>

@@ -15,6 +15,7 @@
       <button id="showAll">Show All Legos</button>
       <button id="showRed">Show Red Legos</button>
       <button id="showGreen">Show Green Legos</button>
+      <button id="sortByYear">Sort By Year</button>
       <select id="materialSelector" name="materialSelector"><!--! what if we add a material? concepts: dynamacy, scalability, no hardcode -->
         <option value="">All Materials</option>
         <option value="Solid">Solid</option>
@@ -29,7 +30,12 @@
         <option value="Process">Process</option>
         <option value="Modulex">Modulex</option>
       </select>
-      <h3>Search by LegoID:</h3><textarea name="legoIdSearch" id="legoIdSearch" cols="15" rows="1"></textarea>
+      <div id="legoIdSearch">
+        <h3>Search by LegoID:</h3>
+        <input type="text" name="legoIdSearch" id="legoIdSearchInput" cols="15" rows="1"></input>
+        <button id="legoIDSearchButton">Search!</button>
+        <button id="legoIDResetButton">Reset!</button>
+      </div>
     </nav>
   </header>
   <main>
