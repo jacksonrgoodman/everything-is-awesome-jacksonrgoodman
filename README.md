@@ -1,3 +1,17 @@
+# Lego Sorting Website
+An NSS Project focusing on JSON databases and event listeners.
+
+## Installation
+1. `git clone` this repository
+2. run `serve` in root
+4. go to `http://localhost:5000/src/`
+
+## Contributing
+Just Me!
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ![Lucy and Emmet](builders.jpg)
 # Everything is Awesome
 
